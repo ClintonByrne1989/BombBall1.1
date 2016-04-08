@@ -14,7 +14,7 @@ function Start () {
 
 function OnGUI() {
     if(buttona == true){
-        while (GUI.Button(new Rect(Screen.width*0.85,Screen.height*0.7,Screen.width*0.05,Screen.height*0.1), "A") ){
+        while (GUI.Button(new Rect(Screen.width*0.4,Screen.height*0.9,Screen.width*0.05,Screen.height*0.1), "A") ){
             rb.velocity = Vector3(0,ServeHeight,PowerA);
             buttona = false;
             buttonb = false;
@@ -22,7 +22,7 @@ function OnGUI() {
     }
 
     if(buttonb == true){
-        while (GUI.Button(new Rect(Screen.width*0.85,Screen.height*0.8,Screen.width*0.05,Screen.height*0.1), "B") ){
+        while (GUI.Button(new Rect(Screen.width*0.5,Screen.height*0.9,Screen.width*0.05,Screen.height*0.1), "B") ){
             rb.velocity = Vector3(0,ServeHeight,PowerB);
             buttona = false;
             buttonb = false;

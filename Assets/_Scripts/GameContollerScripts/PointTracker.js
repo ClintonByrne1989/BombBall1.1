@@ -20,10 +20,12 @@ function wintext(){
 
         if(Point1 >= Point2){
             centretextgui.GetComponent.<Text>().text = "Player 1 Wins";
-
         }
         if(Point1 <= Point2){
             centretextgui.GetComponent.<Text>().text = "Player 2 Wins";
+        }
+        if(Point1 == Point2){
+            centretextgui.GetComponent.<Text>().text = "Draw";
 
         }
     }
