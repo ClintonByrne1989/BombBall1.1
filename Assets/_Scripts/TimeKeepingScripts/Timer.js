@@ -10,7 +10,6 @@ static var GameState = true;
 function Update(){
     countdowntime();
     endofgame();
-    Debug.Log(GameState);
 }
 
 function countdowntime(){
